@@ -1,9 +1,3 @@
-// Time Complexity :
-// Space Complexity :
-// Did this code successfully run on Leetcode :
-// Any problem you faced while coding this :
-
-
 // Your code here along with comments explaining your approach
 
 //Use DFS to start and go in 4 directions when color is same as starting color else return original matrix

@@ -1,3 +1,9 @@
+
+//Time Complexity:O(m*n)
+//Space Complexity:O(m*n)
+//First, we set all 1s to a large value and leave 0s as they are.
+//Then we traverse the matrix from top-left to bottom-right, updating distances based on top and left neighbors.
+//Finally, we traverse back bottom-right to top-left, updating using bottom and right neighbors.
 public class NearestZero {
         public int[][] updateMatrix(int[][] mat) {
         int m = mat.length, n = mat[0].length;
